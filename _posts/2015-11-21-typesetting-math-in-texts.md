@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Typesetting Math in Texts
 ---
 
