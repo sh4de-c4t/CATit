@@ -14,6 +14,11 @@
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
 
+    {% if site.avatar %}
+    <meta property="og:image" content="{{ site.avatar }}">
+    <meta name="twitter:image" content="{{ site.avatar }}">
+    {% endif %}
+
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 
